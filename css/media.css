@@ -1,0 +1,371 @@
+@media screen and (max-width:979px) and (min-width:768px) {}
+
+@media screen and (max-width:767px) and (min-width:501px) {
+
+
+    .navbar {
+
+        background-color: rgba(0, 0, 0, 0.6);
+
+    }
+
+    .navbar ul {
+        display        : flex;
+        flex-direction : column;
+        justify-content: flex-start;
+        align-items    : center;
+        margin-top     : 20px;
+
+    }
+
+
+    .about h2,
+    .services h2,
+    .summery h2,
+    .Portfolio h2,
+    .clientspeak h2,
+    .contact h2 {
+
+        text-align: center;
+        color     : rgba(0, 0, 0, 0.05);
+        font-size : 5.25rem;
+        position  : relative;
+        padding   : 40px;
+
+    }
+
+
+    .about h2::after,
+    .services h2::after,
+    .summery h2::after,
+    .Portfolio h2::after,
+    .clientspeak h2::after,
+    .contact h2::after {
+
+        font-size: 30px;
+
+    }
+
+
+    .aboutme,
+    .aboutCounter {
+
+        display       : flex;
+        flex-direction: column;
+    }
+
+
+    .aboutme,
+    .aboutCounter .item {
+
+        width: auto;
+    }
+
+    .aboutCounter .borderafter {
+
+        border-right : none;
+        border-bottom: 2px solid #dee2e6;
+
+    }
+
+
+    .mainServices,
+    .summery-container,
+    .parentskills {
+
+        display       : flex;
+        flex-direction: column;
+        width         : 100%;
+    }
+
+    .mainServices .item {
+
+        width  : 100%;
+        display: flex;
+        padding: 10px;
+    }
+
+
+    .skillitem {
+
+        width: 100%;
+
+    }
+
+    .btnskills {
+
+        width : 50%;
+        margin: 20px auto;
+    }
+
+
+    .summery-container {
+
+        margin: 0px;
+
+    }
+
+    .Portfolio {
+
+        padding: 0px;
+    }
+
+    .clientspeak h2 {
+
+        font-size: 75px;
+        padding  : 40px 0px;
+    }
+
+    .portfolio-Img,
+    .main-speak {
+
+
+
+        display       : flex;
+        flex-direction: column;
+    }
+
+
+    .contact-details {
+
+
+        display        : flex;
+        flex-direction : column-reverse;
+        justify-content: center;
+        align-items    : center;
+        align-content  : center;
+        width          : 100%;
+    }
+
+
+    .speak-header img {
+
+        width: 20%;
+    }
+
+    .item-speak,
+    .contact-details .send-note,
+    .contact-details .send-note input,
+    .contact-details .send-note textarea,
+    .contact-details button {
+
+        width      : 100%;
+        margin-left: 0px;
+
+    }
+
+
+    .contact-details button {
+
+
+        width : 50%;
+        margin: 20px 30%;
+
+    }
+
+    .contact-details .address {
+
+        text-align: center;
+    }
+
+    .contact-details .send-note input {
+
+        width  : 100%;
+        display: block;
+
+    }
+
+
+    .footer .container {
+
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+
+    .navbar {
+
+        background-color: rgba(0, 0, 0, 0.6);
+
+    }
+
+    .navbar ul {
+        display        : flex;
+        flex-direction : column;
+        justify-content: flex-start;
+        align-items    : center;
+        margin-top     : 20px;
+
+    }
+
+
+    .about h2,
+    .services h2,
+    .summery h2,
+    .Portfolio h2,
+    .clientspeak h2,
+    .contact h2 {
+
+        text-align: center;
+        color     : rgba(0, 0, 0, 0.05);
+        font-size : 5.25rem;
+        position  : relative;
+        padding   : 40px;
+
+    }
+
+
+    .about h2::after,
+    .services h2::after,
+    .summery h2::after,
+    .Portfolio h2::after,
+    .clientspeak h2::after,
+    .contact h2::after {
+
+        font-size: 30px;
+
+    }
+
+
+    .aboutme,
+    .aboutCounter {
+
+        display       : flex;
+        flex-direction: column;
+    }
+
+
+    .aboutme,
+    .aboutCounter .item {
+
+        width: auto;
+    }
+
+    .aboutCounter .borderafter {
+
+        border-right : none;
+        border-bottom: 2px solid #dee2e6;
+
+    }
+
+
+    .mainServices,
+    .summery-container,
+    .parentskills {
+
+        display       : flex;
+        flex-direction: column;
+        width         : 100%;
+    }
+
+    .mainServices .item {
+
+        width  : 100%;
+        display: flex;
+        padding: 10px;
+    }
+
+
+    .skillitem {
+
+        width: 100%;
+
+    }
+
+    .btnskills {
+
+        width : 50%;
+        margin: 20px auto;
+    }
+
+
+    .summery-container {
+
+        margin: 0px;
+
+    }
+
+    .Portfolio {
+
+        padding: 0px;
+    }
+
+    .clientspeak h2 {
+
+        font-size: 75px;
+        padding  : 40px 0px;
+    }
+
+    .portfolio-Img,
+    .main-speak {
+
+
+
+        display       : flex;
+        flex-direction: column;
+    }
+
+
+    .contact-details {
+
+
+        display        : flex;
+        flex-direction : column-reverse;
+        justify-content: center;
+        align-items    : center;
+        align-content  : center;
+        width          : 100%;
+    }
+
+
+    .speak-header img {
+
+        width: 20%;
+    }
+
+    .item-speak,
+    .contact-details .send-note,
+    .contact-details .send-note input,
+    .contact-details .send-note textarea,
+    .contact-details button {
+
+        width      : 100%;
+        margin-left: 0px;
+
+    }
+
+
+    .contact-details button {
+
+
+        width : 50%;
+        margin: 20px 30%;
+
+    }
+
+    .contact-details .address {
+
+        text-align: center;
+    }
+
+    .contact-details .send-note input {
+
+        width  : 100%;
+        display: block;
+
+    }
+
+
+    .footer .container {
+
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+}
